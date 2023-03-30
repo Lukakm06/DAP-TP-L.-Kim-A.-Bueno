@@ -12,8 +12,8 @@ class MainActivity : AppCompatActivity() {
     private lateinit var pass: EditText
     private lateinit var btnLogIn: Button
     private lateinit var txtView: TextView
-
-        private var emailList : MutableList<String> = mutableListOf()
+    var userValue : String
+    private var emailList : MutableList<String> = mutableListOf()
     private var passList : MutableList<String> = mutableListOf()
 
     @SuppressLint("SetTextI18n")
@@ -40,6 +40,7 @@ class MainActivity : AppCompatActivity() {
             val emailExists = emailList.contains(checkEmail)
             if (emailExists){
                 txtView.text = "Hola"
+
             }
         }
     }
