@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navgraph"
+    app:startDestination="@id/fragment_LogIn">
+    <fragment
+        android:id="@+id/fragment_LogIn"
+        android:name="com.example.tp_segundo_bimestre.fragments.Fragment_LogIn"
+        android:label="fragment_fragment__log_in"
+        tools:layout="@layout/fragment_fragment__log_in" >
+        <action
+            android:id="@+id/action_fragment_LogIn_to_fragment_Register"
+            app:destination="@id/fragment_Register" />
+        <action
+            android:id="@+id/action_fragment_LogIn_to_fragment_List22"
+            app:destination="@id/fragment_List2" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragment_Register"
+        android:name="com.example.tp_segundo_bimestre.fragments.Fragment_Register"
+        android:label="fragment_fragment__register"
+        tools:layout="@layout/fragment_fragment__register" />
+    <fragment
+        android:id="@+id/fragment_List2"
+        android:name="com.example.tp_segundo_bimestre.fragments.Fragment_List"
+        android:label="fragment_fragment__list"
+        tools:layout="@layout/fragment_fragment__list" />
+</navigation>
