@@ -6,7 +6,7 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import com.example.tp_segundo_bimestre.FragmentListViewModel
+import com.example.tp_segundo_bimestre.viewmodels.FragmentListViewModel
 import com.example.tp_segundo_bimestre.R
 
 class Fragment_List : Fragment() {

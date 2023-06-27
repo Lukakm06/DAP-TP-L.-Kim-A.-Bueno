@@ -1,4 +1,4 @@
-package com.example.tp_segundo_bimestre
+package com.example.tp_segundo_bimestre.viewmodels
 
 import androidx.lifecycle.ViewModel
 
