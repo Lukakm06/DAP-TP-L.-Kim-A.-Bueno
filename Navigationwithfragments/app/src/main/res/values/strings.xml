@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Navigationwithfragments</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="register">Register</string>
+    <string name="log_in">Log In</string>
+    <string name="name">Name</string>
+    <string name="login">Log In</string>
+    <string name="Password">Password\n</string>
+    <string name="email">Email</string>
+    <string name="registers">Register</string>
+    <string name="logina">LogIn</string>
+    <string name="registerw">Register</string>
+    <string name="names">Name</string>
+    <string name="asd">Name</string>
+    <string name="password">Password</string>
+    <string name="mail">Email</string>
+</resources>
