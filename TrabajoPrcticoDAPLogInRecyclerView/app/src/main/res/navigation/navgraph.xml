@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navgraph"
+    app:startDestination="@id/fragmentLogIn">
+
+    <fragment
+        android:id="@+id/fragmentLogIn"
+        android:name="com.example.trabajoprcticodaplogin_recyclerview.fragments.FragmentLogIn"
+        android:label="fragment_fragment_log_in"
+        tools:layout="@layout/fragment_fragment_log_in" >
+        <action
+            android:id="@+id/action_fragmentLogIn_to_fragmentRegister"
+            app:destination="@id/fragmentRegister" />
+        <action
+            android:id="@+id/action_fragmentLogIn_to_fragmentList"
+            app:destination="@id/fragmentList" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragmentRegister"
+        android:name="com.example.trabajoprcticodaplogin_recyclerview.fragments.FragmentRegister"
+        android:label="fragment_fragment_register"
+        tools:layout="@layout/fragment_fragment_register" >
+        <action
+            android:id="@+id/action_fragmentRegister_to_fragmentLogIn"
+            app:destination="@id/fragmentLogIn" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragmentList"
+        android:name="com.example.trabajoprcticodaplogin_recyclerview.fragments.FragmentList"
+        android:label="fragment_fragment_list"
+        tools:layout="@layout/fragment_fragment_list" >
+        <action
+            android:id="@+id/action_fragmentList_to_fragmentMoreOptions"
+            app:destination="@id/fragmentMoreOptions" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragmentMoreOptions"
+        android:name="com.example.trabajoprcticodaplogin_recyclerview.fragments.FragmentMoreOptions"
+        android:label="fragment_fragment_more_options"
+        tools:layout="@layout/fragment_fragment_more_options" />
+</navigation>

@@ -15,9 +15,6 @@ class PokemonViewHolder (view: View):RecyclerView.ViewHolder(view){
         binding.tvPokeName.text = pokemonModel.pokeName
         binding.tvPokeType1.text = pokemonModel.pokeType1
         binding.tvPokeType2.text = pokemonModel.pokeType2
-        binding.cardPokemon.setOnClickListener{
-            onClickListener(pokemonModel)
-        }
 
         itemView.setOnClickListener{
             Toast.makeText(

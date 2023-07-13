@@ -1,7 +1,7 @@
 package com.example.recyclerviewexample.entities
 
 class PokemonRepository {
-        companion object{
+    companion object{
         val pokemonList = listOf<Pokemon>(
             Pokemon(
                 "1",
