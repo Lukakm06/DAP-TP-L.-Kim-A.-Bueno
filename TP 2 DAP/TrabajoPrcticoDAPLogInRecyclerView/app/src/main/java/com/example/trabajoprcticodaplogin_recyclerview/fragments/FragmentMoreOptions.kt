@@ -29,7 +29,7 @@ class FragmentMoreOptions : Fragment() {
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        v = inflater.inflate(R.layout.fragment_fragment_list, container, false)
+        v = inflater.inflate(R.layout.fragment_fragment_more_options, container, false)
         number = v.findViewById(R.id.tvPokeNumOpt)
         name = v.findViewById(R.id.tvPokeNameOpt)
         type1 = v.findViewById(R.id.tvPokeType1Opt)
@@ -40,7 +40,7 @@ class FragmentMoreOptions : Fragment() {
     }
 
     override fun onActivityCreated(savedInstanceState: Bundle?) {
-        super.onActivityCreated(savedInstanceState)
+        super.onActivityCreated(savedInstanceState)1
         viewModelMoreOpt = ViewModelProvider(requireActivity()).get(FragmentMoreOptionsViewModel::class.java)
         viewModelList = ViewModelProvider(requireActivity()).get(FragmentListViewModel::class.java)
 
