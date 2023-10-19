@@ -40,7 +40,7 @@ class FragmentMoreOptions : Fragment() {
     }
 
     override fun onActivityCreated(savedInstanceState: Bundle?) {
-        super.onActivityCreated(savedInstanceState)1
+        super.onActivityCreated(savedInstanceState)
         viewModelMoreOpt = ViewModelProvider(requireActivity()).get(FragmentMoreOptionsViewModel::class.java)
         viewModelList = ViewModelProvider(requireActivity()).get(FragmentListViewModel::class.java)
 
