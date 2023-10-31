@@ -39,5 +39,18 @@
         android:id="@+id/fragmentMoreOptions"
         android:name="com.example.trabajoprcticodaplogin_recyclerview.fragments.FragmentMoreOptions"
         android:label="fragment_fragment_more_options"
-        tools:layout="@layout/fragment_fragment_more_options" />
+        tools:layout="@layout/fragment_fragment_more_options" >
+        <action
+            android:id="@+id/action_fragmentMoreOptions_to_fragmentEditInfo"
+            app:destination="@id/fragmentEditInfo" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragmentEditInfo"
+        android:name="com.example.trabajoprcticodaplogin_recyclerview.fragmentEditInfo"
+        android:label="fragment_fragment_edit_info"
+        tools:layout="@layout/fragment_fragment_edit_info" >
+        <action
+            android:id="@+id/action_fragmentEditInfo_to_fragmentMoreOptions"
+            app:destination="@id/fragmentMoreOptions" />
+    </fragment>
 </navigation>

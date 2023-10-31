@@ -15,6 +15,7 @@ import com.example.trabajoprcticodaplogin_recyclerview.R
 import com.example.trabajoprcticodaplogin_recyclerview.entities.Users
 import com.example.trabajoprcticodaplogin_recyclerview.viewmodels.FragmentLogInViewModel
 
+@Suppress("DEPRECATION")
 class FragmentLogIn : Fragment() {
 
     companion object {
@@ -32,7 +33,7 @@ class FragmentLogIn : Fragment() {
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
-    ): View? {
+    ): View {
         v = inflater.inflate(R.layout.fragment_fragment_log_in, container, false)
         emailUser = v.findViewById(R.id.etLogInEmail)
         passUser = v.findViewById(R.id.etLogInPass)

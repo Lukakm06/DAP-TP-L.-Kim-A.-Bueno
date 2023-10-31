@@ -6,7 +6,6 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.TextView
 import androidx.navigation.findNavController
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
@@ -15,8 +14,8 @@ import com.example.trabajoprcticodaplogin_recyclerview.adapter.PokemonAdapter
 import com.example.trabajoprcticodaplogin_recyclerview.entities.Pokemon
 import com.example.trabajoprcticodaplogin_recyclerview.entities.PokemonRepository
 import com.example.trabajoprcticodaplogin_recyclerview.viewmodels.FragmentListViewModel
-import com.example.trabajoprcticodaplogin_recyclerview.viewmodels.FragmentRegisterViewModel
 
+@Suppress("DEPRECATION")
 class FragmentList : Fragment() {
 
     companion object {
@@ -55,8 +54,9 @@ class FragmentList : Fragment() {
         }
     }
 
+    @Deprecated("Deprecated in Java")
     override fun onActivityCreated(savedInstanceState: Bundle?) {
         super.onActivityCreated(savedInstanceState)
-        viewModel = ViewModelProvider(requireActivity()).get(FragmentListViewModel::class.java)
+        viewModel = ViewModelProvider(requireActivity())[FragmentListViewModel::class.java]
     }
 }

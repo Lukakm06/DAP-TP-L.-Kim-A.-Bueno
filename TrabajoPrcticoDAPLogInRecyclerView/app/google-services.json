@@ -1,37 +1,26 @@
 {
   "project_info": {
-    "project_number": "333485748481",
-    "firebase_url": "https://fir-st-tp-5-default-rtdb.firebaseio.com",
-    "project_id": "fir-st-tp-5",
-    "storage_bucket": "fir-st-tp-5.appspot.com"
+    "project_number": "267417421201",
+    "project_id": "dap---firebase-183e5",
+    "storage_bucket": "dap---firebase-183e5.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:333485748481:android:b6eaed9bbf9c144d8dab00",
+        "mobilesdk_app_id": "1:267417421201:android:2c8ad03234502e39078630",
         "android_client_info": {
           "package_name": "com.example.trabajoprcticodaplogin_recyclerview"
         }
       },
-      "oauth_client": [
-        {
-          "client_id": "333485748481-0fkrtfh57rm8s9v9r7pv21qr4cd67o6u.apps.googleusercontent.com",
-          "client_type": 3
-        }
-      ],
+      "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyDM1jXweDG0KgqZi7VuNdUtMzzQXpjGVRg"
+          "current_key": "AIzaSyBMpcRLW6ke45wbVEr54LBqFi_fUts9sIQ"
         }
       ],
       "services": {
         "appinvite_service": {
-          "other_platform_oauth_client": [
-            {
-              "client_id": "333485748481-0fkrtfh57rm8s9v9r7pv21qr4cd67o6u.apps.googleusercontent.com",
-              "client_type": 3
-            }
-          ]
+          "other_platform_oauth_client": []
         }
       }
     }
